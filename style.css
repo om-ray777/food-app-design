@@ -28,19 +28,19 @@ body {
     margin: 20px 0 0;
 }
 
-.loading-icon{
+.loading-icon {
     text-align: center;
-    padding-top: 200px ;
+    padding-top: 200px;
     font-size: 50px;
     color: #2B964F;
 }
 
-.loading-icon a{   
+.loading-icon a {
     text-decoration: none;
     color: #2B964F;
 }
 
-.welcome{
+.welcome {
     min-height: 100vh;
     border-radius: 20px;
     background-image: url('welcome-img.png');
@@ -51,22 +51,30 @@ body {
     position: relative;
 }
 
-.content{
+.content {
     position: absolute;
     bottom: 40px;
     left: 20px;
     right: 20px;
     font-family: sans-serif;
-    
-    
+
+
 }
 
-.content h1{
+.content h1 {
     color: #02c543;
     font-weight: bold;
 }
 
-.content p{
+.content p {
     color: white;
 }
 
+
+@media (max-width: 600px) {
+    .app {
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+}
